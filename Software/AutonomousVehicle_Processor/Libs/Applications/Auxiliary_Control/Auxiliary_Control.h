@@ -1,0 +1,13 @@
+/*
+ * Auxiliary_Control.h
+ *
+ *  Created on: Jul 10, 2024
+ *      Author: admin
+ */
+
+#ifndef APPLICATIONS_AUXILIARY_CONTROL_AUXILIARY_CONTROL_H_
+#define APPLICATIONS_AUXILIARY_CONTROL_AUXILIARY_CONTROL_H_
+
+
+
+#endif /* APPLICATIONS_AUXILIARY_CONTROL_AUXILIARY_CONTROL_H_ */
