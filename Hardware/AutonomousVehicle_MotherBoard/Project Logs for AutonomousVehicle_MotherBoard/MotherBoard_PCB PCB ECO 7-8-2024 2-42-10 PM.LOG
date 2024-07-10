@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=PS2_POWER Pin=P14-2
+Change Net Name : Old Net Name=PS2_POWER New Net Name=+3.3

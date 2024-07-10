@@ -1,0 +1,4 @@
+Added Component: Designator=HS1(HEATSINK_TO220_SMALL)
+Added Component: Designator=HS2(HEATSINK_TO220_SMALL)
+Added Member To Class: ClassName=PowerBoard_Schematic Member=Component HS1 HeatSink_1Hole
+Added Member To Class: ClassName=PowerBoard_Schematic Member=Component HS2 HeatSink_1Hole

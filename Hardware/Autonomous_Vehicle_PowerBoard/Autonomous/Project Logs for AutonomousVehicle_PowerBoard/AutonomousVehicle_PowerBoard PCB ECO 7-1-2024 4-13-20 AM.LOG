@@ -1,0 +1,5 @@
+Added Component: Designator=H3(HEATSINK_TO220_SMALL)
+Added Component: Designator=H6(HEATSINK_TO220_SMALL)
+Added Pin To Net: NetName=+5 Pin=C9-1
+Added Member To Class: ClassName=PowerBoard_Schematic Member=Component H3 HeatSink
+Added Member To Class: ClassName=PowerBoard_Schematic Member=Component H6 HeatSink

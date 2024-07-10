@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=U1 Old Footprint=Nucleo-F401RE New Footprint=NUCLEO-F401RE-HEADER
+Change Component Comment : Designator=U1 Old Comment=NUCLEO-F401RE New Comment=NUCLEO-F401RE_HEADER

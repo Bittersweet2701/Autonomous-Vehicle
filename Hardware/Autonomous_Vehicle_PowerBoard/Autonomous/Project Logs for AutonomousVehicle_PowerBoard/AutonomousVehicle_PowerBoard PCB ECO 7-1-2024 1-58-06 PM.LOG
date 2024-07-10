@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=+12 Pin=C2-2
+Change Component Footprint: Designator=C2 Old Footprint=CAP_0805 New Footprint=CAP_RADIAL_2.54
+Change Component Comment : Designator=C2 Old Comment=1 uF, 25 VDC New Comment=1 uF, 50VDC
+Change component parameters: Designator = "C2" ("C2"); Footprint = "CAP_0805"; UniqueID = "\JYDHTMPY" ("\JYDHTMPY")
+Added Pin To Net: NetName=+12 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
