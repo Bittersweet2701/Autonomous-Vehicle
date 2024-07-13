@@ -19,6 +19,10 @@
 /**********************
  *   GLOBAL FUNCTIONS
  **********************/
+
+
+/// @brief 
+/// @param BRUSHED_DC_Motor_p 
 void BRUSHED_DC_MOTOR_Set_Speed(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p)
 {
 	switch (BRUSHED_DC_Motor_p->timChannel)
@@ -66,6 +70,12 @@ void BRUSHED_DC_MOTOR_Set_Speed(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p)
 	}
 }
 
+/// @brief 
+/// @param BRUSHED_DC_Motor_p 
+/// @param timer_p 
+/// @param timChannel 
+/// @param direct 
+/// @param set_speed_func 
 void BRUSHED_DC_MOTOR_Init(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p,
 							TIM_HandleTypeDef * timer_p,
 							uint32_t timChannel,
@@ -81,6 +91,11 @@ void BRUSHED_DC_MOTOR_Init(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p,
 	BRUSHED_DC_MOTOR_Set_Speed(BRUSHED_DC_Motor_p);
 }
 
+/// @brief This function Create the function pointer to the DC Motor parameters
+/// @param timer_p 
+/// @param timChannel 
+/// @param direct 
+/// @return a pointer point to the struct data
 BRUSHED_DC_Motor_t * BRUSHED_DC_MOTOR_Create(TIM_HandleTypeDef * timer_p,
 											uint32_t timChannel,
 											DIRECTION_DC_Motor_t direct)
@@ -93,6 +108,8 @@ BRUSHED_DC_Motor_t * BRUSHED_DC_MOTOR_Create(TIM_HandleTypeDef * timer_p,
 	return BRUSHED_DC_Motor_p;
 }
 
+/// @brief This function destroy the function pointer in RTOS
+/// @param BRUSHED_DC_Motor_p 
 void BRUSHED_DC_MOTOR_Destroy(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p)
 {
 	free(BRUSHED_DC_Motor_p);
