@@ -1,0 +1,4 @@
+../Libs/Drivers/Servo_Motor/Servo_Motor.c:14:6:SERVO_Motor_Set_Steering	16	static
+../Libs/Drivers/Servo_Motor/Servo_Motor.c:38:6:SERVO_MOTOR_Init	24	static
+../Libs/Drivers/Servo_Motor/Servo_Motor.c:50:17:SERVO_MOTOR_Create	24	static
+../Libs/Drivers/Servo_Motor/Servo_Motor.c:60:6:SERVO_MOTOR_Destroy	16	static

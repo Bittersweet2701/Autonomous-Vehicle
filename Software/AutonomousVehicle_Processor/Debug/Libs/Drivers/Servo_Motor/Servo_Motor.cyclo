@@ -1,0 +1,4 @@
+../Libs/Drivers/Servo_Motor/Servo_Motor.c:14:6:SERVO_Motor_Set_Steering	7
+../Libs/Drivers/Servo_Motor/Servo_Motor.c:38:6:SERVO_MOTOR_Init	1
+../Libs/Drivers/Servo_Motor/Servo_Motor.c:50:17:SERVO_MOTOR_Create	2
+../Libs/Drivers/Servo_Motor/Servo_Motor.c:60:6:SERVO_MOTOR_Destroy	1

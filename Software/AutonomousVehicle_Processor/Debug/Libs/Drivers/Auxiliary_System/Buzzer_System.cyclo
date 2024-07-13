@@ -1,0 +1,4 @@
+../Libs/Drivers/Auxiliary_System/Buzzer_System.c:23:6:BUZZER_SYSTEM_Set_Sound	13
+../Libs/Drivers/Auxiliary_System/Buzzer_System.c:55:6:BUZZER_SYSTEM_Init	1
+../Libs/Drivers/Auxiliary_System/Buzzer_System.c:67:19:BUZZER_SYSTEM_Create	2
+../Libs/Drivers/Auxiliary_System/Buzzer_System.c:79:6:BUZZER_SYSTEM_Destroy	1

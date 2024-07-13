@@ -1,0 +1,104 @@
+/*
+ * Brushed_DC_Motor.c
+ *
+ *  Created on: Jul 10, 2024
+ *      Author: admin
+ */
+
+#include "Brushed_DC_Motor.h"
+#include "stdlib.h"
+
+/*********************
+ *      DEFINES
+ *********************/
+#define DUTY_CYCLE_STOP 25
+#define DUTY_CYCLE_LOW 50
+#define DUTY_CYCLE_MEDIUM 60
+#define DUTY_CYCLE_HIGH 70
+
+/**********************
+ *   GLOBAL FUNCTIONS
+ **********************/
+void BRUSHED_DC_Motor_Set_speed(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p)
+{
+	switch (BRUSHED_DC_Motor_p->timChannel)
+	{
+	case TIM_CHANNEL_1:
+		if (BRUSHED_DC_Motor_p->speed == STOP_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR1 = DUTY_CYCLE_STOP;
+		if (BRUSHED_DC_Motor_p->speed == LOW_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR1 = DUTY_CYCLE_LOW;
+		if (BRUSHED_DC_Motor_p->speed == MEDIUM_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR1 = DUTY_CYCLE_MEDIUM;
+		if (BRUSHED_DC_Motor_p->speed == HIGH_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR1 = DUTY_CYCLE_HIGH;
+		break;
+	case TIM_CHANNEL_2:
+		if (BRUSHED_DC_Motor_p->speed == STOP_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR2 = DUTY_CYCLE_STOP;
+		if (BRUSHED_DC_Motor_p->speed == LOW_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR2 = DUTY_CYCLE_LOW;
+		if (BRUSHED_DC_Motor_p->speed == MEDIUM_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR2 = DUTY_CYCLE_MEDIUM;
+		if (BRUSHED_DC_Motor_p->speed == HIGH_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR2 = DUTY_CYCLE_HIGH;
+		break;
+	case TIM_CHANNEL_3:
+		if (BRUSHED_DC_Motor_p->speed == STOP_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR3 = DUTY_CYCLE_STOP;
+		if (BRUSHED_DC_Motor_p->speed == LOW_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR3 = DUTY_CYCLE_LOW;
+		if (BRUSHED_DC_Motor_p->speed == MEDIUM_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR3 = DUTY_CYCLE_MEDIUM;
+		if (BRUSHED_DC_Motor_p->speed == HIGH_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR3 = DUTY_CYCLE_HIGH;
+		break;
+	case TIM_CHANNEL_4:
+		if (BRUSHED_DC_Motor_p->speed == STOP_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR4 = DUTY_CYCLE_STOP;
+		if (BRUSHED_DC_Motor_p->speed == LOW_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR4 = DUTY_CYCLE_LOW;
+		if (BRUSHED_DC_Motor_p->speed == MEDIUM_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR4 = DUTY_CYCLE_MEDIUM;
+		if (BRUSHED_DC_Motor_p->speed == HIGH_SPEED)
+			BRUSHED_DC_Motor_p->timer_p->Instance->CCR4 = DUTY_CYCLE_HIGH;
+		break;
+	}
+}
+
+void BRUSHED_DC_MOTOR_Init(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p,
+							TIM_HandleTypeDef * timer_p,
+							uint32_t timChannel,
+							DIRECTION_DC_Motor_t direct,
+							void (* set_speed_func)(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p))
+{
+	BRUSHED_DC_Motor_p->set_speed = set_speed_func;
+	BRUSHED_DC_Motor_p->speed = STOP_SPEED;
+	BRUSHED_DC_Motor_p->timer_p = timer_p;
+	BRUSHED_DC_Motor_p->timChannel = timChannel;
+	BRUSHED_DC_Motor_p->direction = direct;
+	HAL_TIM_PWM_Start(BRUSHED_DC_Motor_p->timer_p, BRUSHED_DC_Motor_p->timChannel);
+	BRUSHED_DC_Motor_Set_speed(BRUSHED_DC_Motor_p);
+}
+
+BRUSHED_DC_Motor_t * BRUSHED_DC_Motor_Create(TIM_HandleTypeDef * timer_p,
+											uint32_t timChannel,
+											DIRECTION_DC_Motor_t direct)
+{
+	BRUSHED_DC_Motor_t * BRUSHED_DC_Motor_p = malloc(sizeof(BRUSHED_DC_Motor_t));
+	if (BRUSHED_DC_Motor_p != NULL)
+	{
+		BRUSHED_DC_MOTOR_Init(BRUSHED_DC_Motor_p, timer_p, timChannel, direct, BRUSHED_DC_Motor_Set_speed);
+	}
+	else
+	{
+		return NULL;
+	}
+	return BRUSHED_DC_Motor_p;
+}
+
+void BRUSHED_DC_Motor_Destroy(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p)
+{
+	free(BRUSHED_DC_Motor_p);
+}
+

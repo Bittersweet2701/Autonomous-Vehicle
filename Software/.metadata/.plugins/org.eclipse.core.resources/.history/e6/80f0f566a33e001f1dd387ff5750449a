@@ -1,0 +1,65 @@
+/*
+ * Buzzer_System.h
+ *
+ *  Created on: Jul 10, 2024
+ *      Author: admin
+ */
+
+#ifndef DRIVERS_AUXILIARY_SYSTEM_BUZZER_SYSTEM_H_
+#define DRIVERS_AUXILIARY_SYSTEM_BUZZER_SYSTEM_H_
+
+/*********************
+ *      INCLUDES
+ *********************/
+#include <stdint.h>
+#include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_tim.h"
+
+/*********************
+ *      DEFINES
+ *********************/
+#define DUTY_CYCLE_BUZZER 50
+
+/**********************
+ *      TYPEDEFS
+ **********************/
+struct LIGHTING_System;
+typedef struct LIGHTING_System LIGHTING_System_t;
+
+typedef enum
+{
+	TURN_RIGHT = 0,
+	TURN_LEFT
+} TURN_Direction_t;
+
+typedef enum
+{
+	LIGHT_ILLUMINATED = 0,
+	LIGHT_NON_ILLUMINATED
+} LIGHT_Illuminated_t;
+
+typedef struct LIGHTING_System
+{
+	TIM_HandleTypeDef * timer_p;
+	TURN_Direction_t turning_direct;
+	uint32_t timChannel;
+	uint32_t light_turning_duty;
+	LIGHT_Illuminated_t light_illuminated_mode;
+	GPIO_TypeDef * GPIO_p;
+	uint16_t GPIO_LIGHTING_Pin;
+	void (* set_lighting)(LIGHTING_System_t * const LIGHTING_System_p);
+};
+
+/**********************
+ *     OPERATION
+ **********************/
+LIGHTING_System_t * LIGHTING_SYSTEM_Create(TIM_HandleTypeDef * timer_p,
+											uint32_t timChannel,
+											TURN_Direction_t turning_direct,
+											LIGHT_Illuminated_t light_illuminated_mode,
+											GPIO_TypeDef * GPIO_p,
+											uint16_t GPIO_LIGHTING_Pin);
+void LIGHTING_SYSTEM_Destroy(LIGHTING_System_t * const LIGHTING_System_p);
+
+
+#endif /* DRIVERS_AUXILIARY_SYSTEM_BUZZER_SYSTEM_H_ */

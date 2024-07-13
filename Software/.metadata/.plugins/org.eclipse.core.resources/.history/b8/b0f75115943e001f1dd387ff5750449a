@@ -1,0 +1,44 @@
+/*
+ * Servo_Motor.h
+ *
+ *  Created on: Jul 10, 2024
+ *      Author: admin
+ */
+
+#ifndef DRIVERS_SERVO_MOTOR_SERVO_MOTOR_H_
+#define DRIVERS_SERVO_MOTOR_SERVO_MOTOR_H_
+
+/*********************
+ *      INCLUDES
+ *********************/
+#include <stdint.h>
+#include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_tim.h"
+
+/*********************
+ *      DEFINES
+ *********************/
+#define DUTY_CYCLE_MAX_LEFT 25
+#define DUTY_CYCLE_MAX_RIGHT 75
+#define DUTY_CYCLE_MIDDLE 50
+
+/**********************
+ *      TYPEDEFS
+ **********************/
+struct SERVO_Motor;
+typedef struct SERVO_Motor SERVO_Motor_t;
+
+struct SERVO_Motor
+{
+	TIM_HandleTypeDef timer_p;
+	uint32_t duty_steering;
+	uint32_t timChannel;
+	void (* set_steering)(SERVO_Motor_t * const SERVO_Motor_p);
+};
+
+/**********************
+ *     OPERATION
+ **********************/
+
+
+#endif /* DRIVERS_SERVO_MOTOR_SERVO_MOTOR_H_ */

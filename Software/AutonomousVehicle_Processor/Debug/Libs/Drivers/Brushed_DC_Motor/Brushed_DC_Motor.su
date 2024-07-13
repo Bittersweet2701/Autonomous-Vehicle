@@ -1,0 +1,4 @@
+../Libs/Drivers/Brushed_DC_Motor/Brushed_DC_Motor.c:22:6:BRUSHED_DC_MOTOR_Set_Speed	16	static
+../Libs/Drivers/Brushed_DC_Motor/Brushed_DC_Motor.c:69:6:BRUSHED_DC_MOTOR_Init	24	static
+../Libs/Drivers/Brushed_DC_Motor/Brushed_DC_Motor.c:84:22:BRUSHED_DC_MOTOR_Create	40	static
+../Libs/Drivers/Brushed_DC_Motor/Brushed_DC_Motor.c:96:6:BRUSHED_DC_MOTOR_Destroy	16	static

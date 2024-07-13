@@ -1,0 +1,42 @@
+/*
+ * Brushed_DC_Motor.c
+ *
+ *  Created on: Jul 10, 2024
+ *      Author: admin
+ */
+
+#include "Brushed_DC_Motor.h"
+#include "stdlib.h"
+
+/*********************
+ *      DEFINES
+ *********************/
+#define DUTY_CYCLE_STOP 25
+#define DYTY_CYCLE_LOW 50
+#define DYTY_CYCLE_MEDIUM 60
+#define DYTY_CYCLE_HIGH 70
+
+/**********************
+ *   GLOBAL FUNCTIONS
+ **********************/
+void BRUSHED_DC_Motor_Set_speed(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p)
+{
+
+}
+
+void BRUSHED_DC_MOTOR_Init(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p,
+							TIM_HandleTypeDef * timer_p,
+							uint32_t timChannel,
+							DIRECTION_DC_Motor_t * direct_p,
+							void (* set_speed_func)(BRUSHED_DC_Motor_t * const BRUSHED_DC_Motor_p))
+{
+	BRUSHED_DC_Motor_p->set_speed = set_speed_func;
+	BRUSHED_DC_Motor_p->speed = STOP_SPEED;
+	BRUSHED_DC_Motor_p->timper_p = timer_p;
+	BRUSHED_DC_Motor_p->timChannel = timChannel;
+	BRUSHED_DC_Motor_p->direction = direct_p;
+	HAL_TIM_PWM_Start(BRUSHED_DC_Motor_p->timper_p, BRUSHED_DC_Motor_p->timChannel);
+	BRUSHED_DC_Motor_Set_speed(BRUSHED_DC_Motor_p);
+}
+
+BRUSHED_DC_Motor_t * BRUSHED_DC_Motor_Create(TIM_HandleTypeDef * timer_p, uint32_t timChannel);

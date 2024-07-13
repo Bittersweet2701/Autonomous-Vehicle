@@ -23,6 +23,20 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+// Drivers
+#include "Auxiliary_System/Buzzer_System.h"
+#include "Auxiliary_System/Lighting_System.h"
+#include "Brushed_DC_Motor/Brushed_DC_Motor.h"
+#include "Servo_Motor/Servo_Motor.h"
+#include "Ripple_Current_Counter/Ripple_Current_Counter.h"
+#include "Voltage_Measure/Voltage_Measure.h"
+
+// Applications
+#include "Auxiliary_Control/Auxiliary_Control.h"
+#include "Brushed_Motor_Diagnosis/Motor_Diagnosis.h"
+#include "Speeding_Control/Speeding_Control.h"
+#include "Steering_Control/Steering_Control.h"
+#include "PS2_Control/PS2_Control.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

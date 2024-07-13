@@ -1,0 +1,25 @@
+18:40:18 **** Incremental Build of configuration Debug for project AutonomousVehicle_Processor ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I"D:/PROJECT/AutonomousVehicle/Autonomous-Vehicle/Software/AutonomousVehicle_Processor/Libs/Applications" -I"D:/PROJECT/AutonomousVehicle/Autonomous-Vehicle/Software/AutonomousVehicle_Processor/Libs/Middlewares" -I"D:/PROJECT/AutonomousVehicle/Autonomous-Vehicle/Software/AutonomousVehicle_Processor/Libs/Drivers" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:27:
+D:/PROJECT/AutonomousVehicle/Autonomous-Vehicle/Software/AutonomousVehicle_Processor/Libs/Drivers/Auxiliary_System/Buzzer_System.h:37:1: warning: useless storage class specifier in empty declaration
+   37 | };
+      | ^
+In file included from ../Core/Src/main.c:28:
+D:/PROJECT/AutonomousVehicle/Autonomous-Vehicle/Software/AutonomousVehicle_Processor/Libs/Drivers/Auxiliary_System/Lighting_System.h:51:1: warning: useless storage class specifier in empty declaration
+   51 | };
+      | ^
+arm-none-eabi-gcc -o "AutonomousVehicle_Processor.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\PROJECT\AutonomousVehicle\Autonomous-Vehicle\Software\AutonomousVehicle_Processor\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AutonomousVehicle_Processor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: AutonomousVehicle_Processor.elf
+ 
+arm-none-eabi-size   AutonomousVehicle_Processor.elf 
+arm-none-eabi-objdump -h -S  AutonomousVehicle_Processor.elf  > "AutonomousVehicle_Processor.list"
+   text	   data	    bss	    dec	    hex	filename
+  19936	     24	  18648	  38608	   96d0	AutonomousVehicle_Processor.elf
+Finished building: default.size.stdout
+ 
+Finished building: AutonomousVehicle_Processor.list
+ 
+
+18:40:19 Build Finished. 0 errors, 2 warnings. (took 1s.5ms)
+

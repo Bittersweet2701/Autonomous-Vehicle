@@ -1,0 +1,4 @@
+../Libs/Drivers/Auxiliary_System/Lighting_System.c:14:6:LIGHTING_SYSTEM_Set_Lighting	16	static
+../Libs/Drivers/Auxiliary_System/Lighting_System.c:38:6:LIGHTING_SYSTEM_Init	24	static
+../Libs/Drivers/Auxiliary_System/Lighting_System.c:55:21:LIGHTING_SYSTEM_Create	48	static
+../Libs/Drivers/Auxiliary_System/Lighting_System.c:76:6:LIGHTING_SYSTEM_Destroy	16	static

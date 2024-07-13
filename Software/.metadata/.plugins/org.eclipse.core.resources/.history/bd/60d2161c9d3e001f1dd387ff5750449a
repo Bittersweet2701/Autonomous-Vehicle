@@ -1,0 +1,51 @@
+/*
+ * Lighting_System.h
+ *
+ *  Created on: Jul 10, 2024
+ *      Author: admin
+ */
+
+#ifndef DRIVERS_AUXILIARY_SYSTEM_LIGHTING_SYSTEM_H_
+#define DRIVERS_AUXILIARY_SYSTEM_LIGHTING_SYSTEM_H_
+
+/*********************
+ *      INCLUDES
+ *********************/
+#include <stdint.h>
+#include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_tim.h"
+
+/*********************
+ *      DEFINES
+ *********************/
+#define DUTY_INDICATING 50
+
+/**********************
+ *      TYPEDEFS
+ **********************/
+struct LIGHTING_System;
+typedef struct LIGHTING_System LIGHTING_System_t;
+
+typedef enum
+{
+	TURN_RIGHT = 0,
+	TURN_LEFT
+} TURN_Direction_t;
+
+typedef enum
+{
+	LIGHT_ILLUMINATED = 0,
+	LIGHT_NON_ILLUMINATED
+} LIGHT_Illuminated_t;
+
+typedef struct LIGHTING_System
+{
+	TIM_HandleTypeDef * timer_p;
+	TURN_Direction_t turning_direct;
+	uint32_t light_turning_duty;
+	LIGHT_Illuminated_t light_illuminated;
+	GPIO_TypeDef * GPIO_p;
+	uint16_t GPIO_LIGHTING_Pin;
+};
+
+#endif /* DRIVERS_AUXILIARY_SYSTEM_LIGHTING_SYSTEM_H_ */

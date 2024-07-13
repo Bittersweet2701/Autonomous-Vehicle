@@ -1,0 +1,52 @@
+/*
+ * Buzzer_System.h
+ *
+ *  Created on: Jul 10, 2024
+ *      Author: admin
+ */
+
+#ifndef DRIVERS_AUXILIARY_SYSTEM_BUZZER_SYSTEM_H_
+#define DRIVERS_AUXILIARY_SYSTEM_BUZZER_SYSTEM_H_
+
+/*********************
+ *      INCLUDES
+ *********************/
+#include <stdint.h>
+#include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_tim.h"
+
+/*********************
+ *      DEFINES
+ *********************/
+#define DUTY_CYCLE_BUZZER 50
+
+/**********************
+ *      TYPEDEFS
+ **********************/
+struct BUZZER_System;
+typedef struct BUZZER_System BUZZER_System_t;
+
+typedef enum
+{
+	LONG_SOUND = 0,
+	SHORT_SOUND
+} SOUND_Duration_t;
+
+typedef struct BUZZER_System
+{
+	TIM_HandleTypeDef * timer_p;
+	uint32_t timChannel;
+	uint32_t duty_cycle_sound;
+	SOUND_Duration_t sound_duration;
+	void (* set_buzzer)(BUZZER_System_t * const BUZZER_System_p);
+};
+
+/**********************
+ *     OPERATION
+ **********************/
+BUZZER_System_t * BUZZER_SYSTEM_Create(TIM_HandleTypeDef * timer_p,
+										uint32_t timChannel,
+										SOUND_Duration_t sound_duration);
+void BUZZER_SYSTEM_Destroy(BUZZER_System_t * const BUZZER_System_p);
+
+#endif /* DRIVERS_AUXILIARY_SYSTEM_BUZZER_SYSTEM_H_ */
