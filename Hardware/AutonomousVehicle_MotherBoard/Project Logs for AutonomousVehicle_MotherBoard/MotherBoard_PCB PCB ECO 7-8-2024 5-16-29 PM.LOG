@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=P19-1
-Removed Pin From Net: NetName=+5 Pin=P19-2
-Removed Member From Class: ClassName=MotherBoard_JetsonSupport Member=P19

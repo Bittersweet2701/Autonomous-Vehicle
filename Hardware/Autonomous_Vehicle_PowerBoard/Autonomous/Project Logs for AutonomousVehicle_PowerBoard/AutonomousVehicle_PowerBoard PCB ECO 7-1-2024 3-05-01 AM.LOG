@@ -1,4 +1,0 @@
-Added Component: Designator=H6(HeatSink TO-220)
-Added Pin To Net: NetName=NetH6_1 Pin=H6-1
-Added Pin To Net: NetName=NetH6_1 Pin=H6-2
-Added Member To Class: ClassName=PowerBoard_Schematic Member=Component H6 HeatSink

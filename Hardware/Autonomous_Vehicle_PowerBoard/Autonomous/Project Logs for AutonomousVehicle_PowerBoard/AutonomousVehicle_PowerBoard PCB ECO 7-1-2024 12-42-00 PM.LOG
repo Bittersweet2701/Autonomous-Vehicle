@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=C8-1
-Removed Pin From Net: NetName=+5 Pin=C8-2
-Change Component Footprint: Designator=C8 Old Footprint=CAP_0805 New Footprint=CAP_RADIAL_2.54
-Change Component Comment : Designator=C8 Old Comment=1 uF, 25 VDC New Comment=1 uF, 50VDC
-Change component parameters: Designator = "C8" ("C8"); Footprint = "CAP_0805"; UniqueID = "\REOBROUW" ("\REOBROUW")
-Added Pin To Net: NetName=+5 Pin=C8-1
-Added Pin To Net: NetName=GND Pin=C8-2

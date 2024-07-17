@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=C17-1
-Removed Pin From Net: NetName=GND Pin=C18-1
-Added Component: Designator=D6(DIODE_ZENER_SOD123F)
-Added Pin To Net: NetName=DGND Pin=C17-1
-Added Pin To Net: NetName=DGND Pin=C18-1
-Added Pin To Net: NetName=AGND Pin=D6-1
-Added Pin To Net: NetName=NetC7_1 Pin=D6-2
-Added Member To Class: ClassName=MotherBoard_Measure_Communication Member=Component D6 Diode_Zener
