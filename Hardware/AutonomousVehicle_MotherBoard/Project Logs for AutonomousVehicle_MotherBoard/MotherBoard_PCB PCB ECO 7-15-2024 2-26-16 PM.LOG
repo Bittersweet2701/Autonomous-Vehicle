@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=C18-1
+Removed Pin From Net: NetName=+5 Pin=C18-2
+Removed Pin From Net: NetName=GND Pin=C19-1
+Removed Pin From Net: NetName=+5 Pin=C19-2
+Change Component Footprint: Designator=C18 Old Footprint=CAP_0603 New Footprint=CAP_RADIAL_2.54
+Change Component Footprint: Designator=C19 Old Footprint=CAP_0603 New Footprint=CAP_RADIAL_2.54
+Change Component Comment : Designator=C18 Old Comment=10 uF, 10 VDC New Comment=1 uF, 50VDC
+Change Component Comment : Designator=C19 Old Comment=100 nF, 100 VDC New Comment=100 nF, 50VDC
+Change component parameters: Designator = "C18" ("C18"); Footprint = "CAP_0603"; UniqueID = "\HXPNTMMZ" ("\HXPNTMMZ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "ThegioiIC Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/tu-gom-multilayer-1uf-50v"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C19" ("C19"); Footprint = "CAP_0603"; UniqueID = "\QXWEWWOZ" ("\QXWEWWOZ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "ThegioiIC Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/tu-gom-tron-100nf-0-1uf-50v"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=C18-1
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=+5 Pin=C19-1
+Added Pin To Net: NetName=GND Pin=C19-2

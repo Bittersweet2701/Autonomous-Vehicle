@@ -1,0 +1,4 @@
+Added Component: Designator=T5(NET_TIE_0.5MM)
+Added Pin To Net: NetName=DGND Pin=T5-1
+Added Pin To Net: NetName=JGND Pin=T5-2
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component T5 NET_TIE

@@ -1,0 +1,4 @@
+Added Component: Designator=H3(HeatSink TO-220)
+Added Pin To Net: NetName=NetH3_1 Pin=H3-1
+Added Pin To Net: NetName=NetH3_1 Pin=H3-2
+Added Member To Class: ClassName=PowerBoard_Schematic Member=Component H3 HeatSink

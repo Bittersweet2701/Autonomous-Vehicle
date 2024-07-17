@@ -1,0 +1,24 @@
+Change Component Footprint: Designator=P1 Old Footprint=691311500002 New Footprint=KF-5.08-2-R
+Change Component Footprint: Designator=P2 Old Footprint=691311500002 New Footprint=KF-5.08-2-R
+Change Component Footprint: Designator=P3 Old Footprint=691311500002 New Footprint=KF-5.08-2-R
+Change Component Footprint: Designator=P4 Old Footprint=691311500002 New Footprint=KF-5.08-2-R
+Change Component Comment : Designator=P1 Old Comment=20A, 300V New Comment=HDR_Terminal
+Change Component Comment : Designator=P2 Old Comment=20A, 300V New Comment=HDR_Terminal
+Change Component Comment : Designator=P3 Old Comment=20A, 300V New Comment=HDR_Terminal
+Change Component Comment : Designator=P4 Old Comment=20A, 300V New Comment=HDR_Terminal
+Change component parameters: Designator = "P1" ("P1"); Footprint = "691311500002"; UniqueID = "\ZVNTIXCP" ("\ZVNTIXCP")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/kf128-2-v-domino-2-chan-thang-3-5mm-300v-10a-han-pcb"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "ThegioiIC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P2" ("P2"); Footprint = "691311500002"; UniqueID = "\DRZYTFBM" ("\DRZYTFBM")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/kf128-2-v-domino-2-chan-thang-3-5mm-300v-10a-han-pcb"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "ThegioiIC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P3" ("P3"); Footprint = "691311500002"; UniqueID = "\QUOGRKQR" ("\QUOGRKQR")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/kf128-2-v-domino-2-chan-thang-3-5mm-300v-10a-han-pcb"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "ThegioiIC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P4" ("P4"); Footprint = "691311500002"; UniqueID = "\KVBRRBRS" ("\KVBRRBRS")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/kf128-2-v-domino-2-chan-thang-3-5mm-300v-10a-han-pcb"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "ThegioiIC"; VariantName = "[No Variations]"

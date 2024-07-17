@@ -1,0 +1,7 @@
+Added Component: Designator=F2(FuseHolder1808)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "JLCPCB Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://jlcpcb.com/partdetail/Littelfuse-0154005DRT/C206917"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part"; Value = "C206917"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetF2_1 Pin=F2-1
+Added Pin To Net: NetName=+5 Pin=F2-2
+Added Member To Class: ClassName=MotherBoard_NucleoF401RE Member=Component F2 Fuse1808

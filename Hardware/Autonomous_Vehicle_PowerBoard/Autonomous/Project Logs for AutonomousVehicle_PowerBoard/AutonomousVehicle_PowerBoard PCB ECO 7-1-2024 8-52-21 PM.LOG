@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=J1-3
+Added Component: Designator=P2(HDR_Terminal_3.5mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/kf128-2-v-domino-2-chan-thang-3-5mm-300v-10a-han-pcb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "ThegioiIC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3 Pin=J1-3
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Member To Class: ClassName=PowerBoard_Schematic Member=Component P2 HDR_Terminal

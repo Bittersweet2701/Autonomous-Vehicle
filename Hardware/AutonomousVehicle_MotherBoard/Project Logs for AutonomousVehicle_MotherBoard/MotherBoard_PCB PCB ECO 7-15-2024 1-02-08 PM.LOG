@@ -1,0 +1,4 @@
+Change component parameters: Designator = "F2" ("F2"); Footprint = "FuseHolder1808"; UniqueID = "\TEWLOOKX" ("\TEWLOOKX")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "JLCPCB Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://jlcpcb.com/partdetail/Littelfuse-0154005DRT/C206917"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "JLCPCB Part"; Value = "C206917"; VariantName = "[No Variations]"

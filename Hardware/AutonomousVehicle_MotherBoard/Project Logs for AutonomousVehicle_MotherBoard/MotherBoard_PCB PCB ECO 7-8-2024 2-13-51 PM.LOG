@@ -1,0 +1,56 @@
+Added Component: Designator=P16(HDR_HEADER_2.0_HORIZONTAL)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/kf128-2-v-domino-2-chan-thang-3-5mm-300v-10a-han-pcb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "ThegioiIC"; VariantName = "[No Variations]"
+Added Component: Designator=U1(NUCLEO-F401RE-HEADER)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "NUCLEO-F401RE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetP22_6 Pin=U1-CN7_1
+Added Pin To Net: NetName=NetP22_7 Pin=U1-CN7_2
+Added Pin To Net: NetName=NetP22_8 Pin=U1-CN7_3
+Added Pin To Net: NetName=DGND Pin=U1-CN7_8
+Added Pin To Net: NetName=PS2_POWER Pin=U1-CN7_16
+Added Pin To Net: NetName=NetQ5_2 Pin=U1-CN7_17
+Added Pin To Net: NetName=+5 Pin=U1-CN7_18
+Added Pin To Net: NetName=DGND Pin=U1-CN7_19
+Added Pin To Net: NetName=DGND Pin=U1-CN7_20
+Added Pin To Net: NetName=I2C_SDA_PIN Pin=U1-CN7_21
+Added Pin To Net: NetName=DGND Pin=U1-CN7_22
+Added Pin To Net: NetName=NetP22_1 Pin=U1-CN7_23
+Added Pin To Net: NetName=NetP22_2 Pin=U1-CN7_25
+Added Pin To Net: NetName=NetP22_9 Pin=U1-CN7_27
+Added Pin To Net: NetName=NetP7_1 Pin=U1-CN7_28
+Added Pin To Net: NetName=Netts_1 Pin=U1-CN7_30
+Added Pin To Net: NetName=NetR11_2 Pin=U1-CN7_34
+Added Pin To Net: NetName=NetP11_1 Pin=U1-CN7_35
+Added Pin To Net: NetName=NetP11_2 Pin=U1-CN7_37
+Added Pin To Net: NetName=NetR3_1 Pin=U1-CN10_2
+Added Pin To Net: NetName=NetP22_4 Pin=U1-CN10_3
+Added Pin To Net: NetName=NetR4_1 Pin=U1-CN10_4
+Added Pin To Net: NetName=NetP22_3 Pin=U1-CN10_5
+Added Pin To Net: NetName=DGND Pin=U1-CN10_9
+Added Pin To Net: NetName=PS2_CLOCK Pin=U1-CN10_11
+Added Pin To Net: NetName=NetP12_2 Pin=U1-CN10_12
+Added Pin To Net: NetName=PS2_CMD Pin=U1-CN10_13
+Added Pin To Net: NetName=NetP12_3 Pin=U1-CN10_14
+Added Pin To Net: NetName=PS2_DATA Pin=U1-CN10_15
+Added Pin To Net: NetName=I2C_SCL_PIN Pin=U1-CN10_17
+Added Pin To Net: NetName=NetR5_1 Pin=U1-CN10_19
+Added Pin To Net: NetName=DGND Pin=U1-CN10_20
+Added Pin To Net: NetName=NetP10_1 Pin=U1-CN10_21
+Added Pin To Net: NetName=NetP10_2 Pin=U1-CN10_23
+Added Pin To Net: NetName=NetP18_2 Pin=U1-CN10_25
+Added Pin To Net: NetName=IMU_RST_PIN Pin=U1-CN10_27
+Added Pin To Net: NetName=NetP22_5 Pin=U1-CN10_29
+Added Pin To Net: NetName=NetP11_3 Pin=U1-CN10_30
+Added Pin To Net: NetName=NetP18_1 Pin=U1-CN10_31
+Added Pin To Net: NetName=AGND Pin=U1-CN10_32
+Added Pin To Net: NetName=NetP12_1 Pin=U1-CN10_33
+Added Pin To Net: NetName=PS2_ATTENTION Pin=U1-CN10_34
+Added Pin To Net: NetName=NetC7_1 Pin=U1-CN10_35
+Added Member To Class: ClassName=MotherBoard_AuxiliarySystem Member=Component P16 HDR_Terminal
+Added Member To Class: ClassName=MotherBoard_NucleoF401RE Member=Component U1 NUCLEO-F401RE_HEADER

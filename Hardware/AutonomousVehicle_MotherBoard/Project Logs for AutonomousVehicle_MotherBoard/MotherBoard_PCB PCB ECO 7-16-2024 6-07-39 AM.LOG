@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=IMU_RST Pin=P22-1
+Removed Pin From Net: NetName=IMU_SCL Pin=P22-2
+Removed Pin From Net: NetName=IMU_SDA Pin=P22-3
+Removed Pin From Net: NetName=JGND Pin=P22-4
+Removed Pin From Net: NetName=IMU_OUT_3.3 Pin=P22-5
+Removed Pin From Net: NetName=JET_3.3 Pin=P22-6
+Added Pin To Net: NetName=JET_3.3 Pin=P22-1
+Added Pin To Net: NetName=IMU_OUT_3.3 Pin=P22-2
+Added Pin To Net: NetName=JGND Pin=P22-3
+Added Pin To Net: NetName=IMU_SDA Pin=P22-4
+Added Pin To Net: NetName=IMU_SCL Pin=P22-5
+Added Pin To Net: NetName=IMU_RST Pin=P22-6

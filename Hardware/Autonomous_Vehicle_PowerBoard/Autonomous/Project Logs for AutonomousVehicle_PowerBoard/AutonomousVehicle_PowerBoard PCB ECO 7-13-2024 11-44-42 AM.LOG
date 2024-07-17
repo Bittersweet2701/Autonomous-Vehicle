@@ -1,0 +1,4 @@
+Added Component: Designator=H3(Hole_3.2mm)
+Added Component: Designator=H6(Hole_3.2mm)
+Added Member To Class: ClassName=PowerBoard_Schematic Member=Component H3 Hole
+Added Member To Class: ClassName=PowerBoard_Schematic Member=Component H6 Hole
