@@ -1,0 +1,4 @@
+Added Component: Designator=T4(NET_TIE_2.0mm)
+Added Pin To Net: NetName=GND Pin=T4-1
+Added Pin To Net: NetName=DGND Pin=T4-2
+Added Member To Class: ClassName=MotherBoard_JetsonSupport Member=Component T4 NET_TIE

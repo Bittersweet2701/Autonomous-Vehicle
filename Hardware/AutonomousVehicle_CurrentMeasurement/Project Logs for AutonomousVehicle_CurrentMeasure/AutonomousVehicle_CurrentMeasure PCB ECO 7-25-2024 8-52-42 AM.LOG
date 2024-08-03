@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=+5 Pin=R13-1
+Removed Pin From Net: NetName=BIAS Pin=R13-2
+Change Component Footprint: Designator=R13 Old Footprint=RESISTOR-1/2W New Footprint=RESISTOR-1/4W
+Change Component Footprint: Designator=R16 Old Footprint=RESISTOR-1/2W New Footprint=RESISTOR-1/4W
+Change Component Comment : Designator=R13 Old Comment=10 KOhm 1/2W New Comment=10K 1/4W
+Change Component Comment : Designator=R16 Old Comment=10 KOhm 1/2W New Comment=10K 1/4W
+Change component parameters: Designator = "R13" ("R13"); Footprint = "RESISTOR-1/2W"; UniqueID = "\GPORXIRS" ("\GPORXIRS")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/dien-tro-10-kohm-1-4w-1-5-vong-mau"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "NUCLEO-F401RE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16" ("R16"); Footprint = "RESISTOR-1/2W"; UniqueID = "\NTPMYHGQ" ("\NTPMYHGQ")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/dien-tro-10-kohm-1-4w-1-5-vong-mau"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "NUCLEO-F401RE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BIAS Pin=R13-1
+Added Pin To Net: NetName=+5 Pin=R13-2

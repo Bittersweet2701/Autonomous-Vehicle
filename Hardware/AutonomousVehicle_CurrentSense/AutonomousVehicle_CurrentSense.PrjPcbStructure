@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=CurrentSense_ADCVoltage.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=CurrentSense_ADCVoltage.SchDoc|FileName=CurrentSense_Diagram.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CurrentSense_ADCVoltage.SchDoc|FileName=CurrentSense_FileInfo.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=CurrentSense_ADCVoltage.SchDoc|FileName=CurrentSense_InputProcessing.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=CurrentSense_ADCVoltage.SchDoc|FileName=CurrentSense_PowerDistribution.SchDoc|SheetNumber=3

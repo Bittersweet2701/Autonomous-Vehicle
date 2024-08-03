@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: AutonomousVehicle_MotorDriver.PcbDoc   8/2/2024  10:37:43 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : AutonomousVehicle_MotorDriver.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             24        PTH        0.00inch (0.00mm)
+T2      13mil (0.33mm)                                            Round             32        PTH        0.00inch (0.00mm)
+T3      16mil (0.4mm)                                             Round             95        PTH        0.00inch (0.00mm)
+T4      20mil (0.5mm)                                             Round             27        PTH        0.00inch (0.00mm)
+T5      28mil (0.7mm)                                             Round             6         PTH        0.00inch (0.00mm)
+T6      60mil (1.524mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T7      126mil (3.2mm)                                            Round             4         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              192
+
+Total Processing Time (hh:mm:ss) : 00:00:01

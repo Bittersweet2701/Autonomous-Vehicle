@@ -1,0 +1,32 @@
+Output: Gerber Files
+Type  : Gerber
+From  : PCB Document [AutonomousVehicle_PowerBoard.PcbDoc]
+   Generated File[AutonomousVehicle_PowerBoard.GTO]
+   Generated File[AutonomousVehicle_PowerBoard.GTP]
+   Generated File[AutonomousVehicle_PowerBoard.GTS]
+   Generated File[AutonomousVehicle_PowerBoard.GTL]
+   Generated File[AutonomousVehicle_PowerBoard.GBL]
+   Generated File[AutonomousVehicle_PowerBoard.GBS]
+   Generated File[AutonomousVehicle_PowerBoard.GBO]
+   Generated File[AutonomousVehicle_PowerBoard.GM1]
+   Generated File[AutonomousVehicle_PowerBoard.GM2]
+   Generated File[AutonomousVehicle_PowerBoard.GM3]
+   Generated File[AutonomousVehicle_PowerBoard.GM4]
+   Generated File[AutonomousVehicle_PowerBoard.GM11]
+   Generated File[AutonomousVehicle_PowerBoard.GM13]
+   Generated File[AutonomousVehicle_PowerBoard.GM15]
+   Generated File[AutonomousVehicle_PowerBoard.GM17]
+   Generated File[AutonomousVehicle_PowerBoard.GKO]
+   Generated File[AutonomousVehicle_PowerBoard.GPT]
+   Generated File[AutonomousVehicle_PowerBoard.GPB]
+   Generated File[AutonomousVehicle_PowerBoard.GD1]
+   Generated File[AutonomousVehicle_PowerBoard.GG1]
+   Generated File[AutonomousVehicle_PowerBoard.RUL]
+   Generated File[AutonomousVehicle_PowerBoard.EXTREP]
+   Generated File[AutonomousVehicle_PowerBoard.REP]
+
+
+Files Generated   : 23
+Documents Printed : 0
+
+Finished Output Generation At 11:12:24 AM On 8/3/2024

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=D6-1
+Removed Pin From Net: NetName=+ADC_BAT Pin=R7-2
+Removed Member From Class: ClassName=CurrentMeasure_PowerDistribution Member=D6
+Removed Member From Class: ClassName=CurrentMeasure_PowerDistribution Member=R7
+Change Component Designator: OldDesignator=P1 NewDesignator=P?
+Change Component Designator: OldDesignator=P2 NewDesignator=P?
+Change Component Designator: OldDesignator=P5 NewDesignator=P?

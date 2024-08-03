@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetP4_2 Pin=R9-2
+Change Component Comment : Designator=R9 Old Comment=2m Shunt New Comment=RESISTOR
+Change component parameters: Designator = "R9" ("R9"); Footprint = "Shunt_Resistor"; UniqueID = "\NVYDNFXD" ("\NVYDNFXD")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "NUCLEO-F401RE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"

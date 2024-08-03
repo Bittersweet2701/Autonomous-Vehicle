@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [AutonomousVehicle_MotorDriver.PcbDoc]
+   Generated File[AutonomousVehicle_MotorDriver.TXT]
+   Generated File[AutonomousVehicle_MotorDriver.LDP]
+   Generated File[AutonomousVehicle_MotorDriver.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:37:44 PM On 8/2/2024

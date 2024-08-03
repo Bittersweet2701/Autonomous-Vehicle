@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=AGND Pin=C16-1
+Removed Pin From Net: NetName=AGND Pin=R14-1
+Removed Member From Class: ClassName=MotherBoard_Measure_Communication Member=C15
+Removed Member From Class: ClassName=MotherBoard_Measure_Communication Member=C16
+Removed Member From Class: ClassName=MotherBoard_Measure_Communication Member=D8
+Removed Member From Class: ClassName=MotherBoard_Measure_Communication Member=R13
+Removed Member From Class: ClassName=MotherBoard_Measure_Communication Member=R14
+Added Pin To Net: NetName=NetP15_1 Pin=P15-1
+Added Pin To Net: NetName=NetP15_1 Pin=U1-CN7_32
+Added Net: Name=NetP15_1

@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=+5 Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Member From Class: ClassName=CurrentMeasure_InputProcessing Member=C13

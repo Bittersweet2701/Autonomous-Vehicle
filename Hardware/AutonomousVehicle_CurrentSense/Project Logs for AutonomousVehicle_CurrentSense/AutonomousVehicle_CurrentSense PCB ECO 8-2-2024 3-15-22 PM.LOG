@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetC12_2 Pin=R9-1
+Removed Pin From Net: NetName=BIAS Pin=R9-2
+Change Component Footprint: Designator=R9 Old Footprint=RESISTOR-1/4W New Footprint=resistor_0603
+Change Component Comment : Designator=R9 Old Comment=820 1/4W New Comment=820  KOhm, 1/4 W
+Change component parameters: Designator = "R9" ("R9"); Footprint = "RESISTOR-1/4W"; UniqueID = "\RTZQUSRQ" ("\RTZQUSRQ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "N/A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier 1 URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "N/A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Supplier 2 URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "https://www.digikey.com/en/products/detail/yageo/RC0603FR-078M2L/5918418"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "Supplier 3 URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = "N/A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacture  Name"; Value = "OEM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacture  SN"; Value = "OEM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Power"; Value = "1/4 W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "820  KOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "+/-1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1 SN"; Value = "660-HV731JTTD8204F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.vn/ProductDetail/KOA-Speer/HV731JTTD8204F?qs=ZqVPfSd1khqN0teaqWW7DA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2 SN"; Value = "13-RC0603FR-078M2LTR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2 URL"; Value = "https://www.digikey.com/en/products/detail/yageo/RC0603FR-078M2L/5918418"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/product/dien-tro-dan-smd?prid=6628,4725"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "820  KOhm, 1/4 W"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BIAS Pin=R9-1

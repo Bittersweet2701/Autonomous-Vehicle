@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=+VIN Pin=C16-2
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=+VIN Pin=C17-2
+Removed Member From Class: ClassName=CurrentMeasure_PowerDistribution Member=C16
+Removed Member From Class: ClassName=CurrentMeasure_PowerDistribution Member=C17
+Change Component Designator: OldDesignator= NewDesignator=H1
+Change Component Designator: OldDesignator= NewDesignator=H3
+Change Component Designator: OldDesignator= NewDesignator=H4
+Added Member To Class: ClassName=CurrentMeasure_PowerDistribution Member=Component H1 Hole
+Added Member To Class: ClassName=CurrentMeasure_PowerDistribution Member=Component H4 Hole

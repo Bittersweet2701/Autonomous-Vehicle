@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=+VIN Pin=F1-1
+Change Component Footprint: Designator=D2 Old Footprint=DO-214AB, SMC New Footprint=DIODE_SCHOTTKY_DO-201AD
+Change Component Footprint: Designator=F1 Old Footprint=Fuse_SMD_1812 New Footprint=FUSERUEF400
+Change Component Comment : Designator=D2 Old Comment=5A 40V New Comment=1N5822
+Change Component Comment : Designator=F1 Old Comment=16V, 2.5A New Comment=30V 4A
+Change component parameters: Designator = "D2" ("D2"); Footprint = "DO-214AB, SMC"; UniqueID = "\TZWHXWLX" ("\TZWHXWLX")
+Change component parameters (AddParameter): Name = "URL"; Value = "https://www.thegioiic.com/1n5822-diode-schottky-40v-3a-do-201ad"; VariantName = "[No Variations]"
+Change component parameters: Designator = "F1" ("F1"); Footprint = "Fuse_SMD_1812"; UniqueID = "\AUDLQWFO" ("\AUDLQWFO")
+Change component parameters (AddParameter): Name = "JLCPCB Part"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "URL"; Value = "https://www.thegioiic.com/ruef400-cau-chi-tu-phuc-hoi-30v-4a"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+VIN Pin=F1-2
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=NetF1_1 Pin=P3-2
+Added Net: Name=NetF1_1

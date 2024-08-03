@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetC5_1 Pin=R8-2
+Removed Pin From Net: NetName=NetC5_2 Pin=R10-2
+Removed Pin From Net: NetName=NetC5_2 Pin=U3-1
+Removed Pin From Net: NetName=NetC5_1 Pin=U3-8
+Change Component Footprint: Designator=C5 Old Footprint=WCAP-ASLI_D4H5.5 New Footprint=CAP_4x7mm
+Change Component Comment : Designator=C5 Old Comment=2.2uF, 50V New Comment=2.2uF 50V
+Change component parameters: Designator = "C5" ("C5"); Footprint = "WCAP-ASLI_D4H5.5"; UniqueID = "\RTGMMJVY" ("\RTGMMJVY")
+Change component parameters (AddParameter): Name = "URL"; Value = "https://www.thegioiic.com/tu-hoa-2-2uf-50v-4x7mm-xuyen-lo"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC5_2 Pin=R8-2
+Added Pin To Net: NetName=NetC5_1 Pin=R10-2
+Added Pin To Net: NetName=NetC5_1 Pin=U3-1
+Added Pin To Net: NetName=NetC5_2 Pin=U3-8

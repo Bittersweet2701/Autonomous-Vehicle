@@ -1,0 +1,7 @@
+Added Component: Designator=P24(HDR_HEADER_2.0_HORIZONTAL)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/kf128-2-v-domino-2-chan-thang-3-5mm-300v-10a-han-pcb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "ThegioiIC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetP24_1 Pin=P24-1
+Added Pin To Net: NetName=NetP24_2 Pin=P24-2
+Added Member To Class: ClassName=MotherBoard_JetsonSupport Member=Component P24 HDR_Terminal

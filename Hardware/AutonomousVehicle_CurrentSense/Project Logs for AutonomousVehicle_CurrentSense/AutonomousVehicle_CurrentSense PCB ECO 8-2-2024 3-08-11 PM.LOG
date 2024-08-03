@@ -1,0 +1,10 @@
+Added Component: Designator=U4(TLVx316-Q1-VSSOP8)
+Added Pin To Net: NetName=NetC6_2 Pin=U4-1
+Added Pin To Net: NetName=NetC6_1 Pin=U4-2
+Added Pin To Net: NetName=BIAS Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=NetC13_1 Pin=U4-5
+Added Pin To Net: NetName=NetR7_1 Pin=U4-6
+Added Pin To Net: NetName=NetP6_2 Pin=U4-7
+Added Pin To Net: NetName=+5 Pin=U4-8
+Added Member To Class: ClassName=CurrentSense_InputProcessing Member=Component U4 TLVx3126-Q1

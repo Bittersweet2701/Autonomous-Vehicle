@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=R11 Old Footprint=RESISTOR-1W New Footprint=RESISTOR-1/4W
+Change Component Comment : Designator=R11 Old Comment=47 KOhm 1W New Comment=47 KOhm 1/4W
+Change component parameters: Designator = "R11" ("R11"); Footprint = "RESISTOR-1W"; UniqueID = "\ZHSMCOQE" ("\ZHSMCOQE")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "NUCLEO-F401RE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "URL"; Value = "https://www.thegioiic.com/dien-tro-47-kohm-1-4w-1-5-vong-mau"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"

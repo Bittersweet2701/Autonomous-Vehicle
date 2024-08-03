@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=D7-1
+Added Component: Designator=H2(Hole_3.2mm)
+Added Pin To Net: NetName=DGND Pin=D7-1
+Added Member To Class: ClassName=MotherBoard_NucleoF401RE Member=Component H2 Hole

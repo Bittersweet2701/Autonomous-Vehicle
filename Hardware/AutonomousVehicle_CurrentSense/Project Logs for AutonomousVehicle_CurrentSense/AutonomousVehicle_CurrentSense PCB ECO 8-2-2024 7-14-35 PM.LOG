@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetC14_2 Pin=C15-2
+Removed Pin From Net: NetName=NetC14_2 Pin=C16-2
+Removed Pin From Net: NetName=NetC14_2 Pin=D2-1
+Removed Pin From Net: NetName=NetC14_2 Pin=D3-2
+Removed Pin From Net: NetName=NetC14_2 Pin=R18-2
+Added Pin To Net: NetName=NetC15_2 Pin=C15-2
+Added Pin To Net: NetName=NetC15_2 Pin=C16-2
+Added Pin To Net: NetName=NetC15_2 Pin=D2-1
+Added Pin To Net: NetName=NetC15_2 Pin=D3-2
+Added Pin To Net: NetName=NetC15_2 Pin=P3-2
+Added Pin To Net: NetName=NetC15_2 Pin=P7-2
+Added Pin To Net: NetName=NetC15_2 Pin=R18-2
+Added Net: Name=NetC15_2
+Added Member To Class: ClassName=CurrentSense_PowerDistribution Member=Component H2 Hole
+Added Member To Class: ClassName=CurrentSense_PowerDistribution Member=Component H4 Hole

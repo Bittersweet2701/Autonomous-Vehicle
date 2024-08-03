@@ -1,0 +1,57 @@
+Removed Pin From Net: NetName=NetP26_5 Pin=U1-CN7_1
+Removed Pin From Net: NetName=NetP26_4 Pin=U1-CN7_2
+Removed Pin From Net: NetName=NetP26_6 Pin=U1-CN7_3
+Removed Pin From Net: NetName=NetP26_8 Pin=U1-CN7_4
+Removed Pin From Net: NetName=NetP26_7 Pin=U1-CN10_3
+Removed Pin From Net: NetName=NetP26_10 Pin=U1-CN10_5
+Removed Pin From Net: NetName=NetP26_9 Pin=U1-CN10_25
+Removed Member From Class: ClassName=MotherBoard_AuxiliarySystem Member=C7
+Removed Member From Class: ClassName=MotherBoard_Sensor_Communication Member=C11
+Removed Member From Class: ClassName=MotherBoard_Sensor_Communication Member=C12
+Removed Member From Class: ClassName=MotherBoard_NucleoF401RE Member=C13
+Removed Member From Class: ClassName=MotherBoard_NucleoF401RE Member=C16
+Removed Member From Class: ClassName=MotherBoard_AuxiliarySystem Member=C20
+Removed Member From Class: ClassName=MotherBoard_Sensor_Communication Member=C28
+Removed Member From Class: ClassName=MotherBoard_Sensor_Communication Member=C29
+Removed Member From Class: ClassName=MotherBoard_Measure_Communication Member=D6
+Removed Member From Class: ClassName=MotherBoard_Sensor_Communication Member=D7
+Removed Member From Class: ClassName=MotherBoard_JetsonSupport Member=H3
+Removed Member From Class: ClassName=MotherBoard_Measure_Communication Member=P7
+Removed Member From Class: ClassName=MotherBoard_Test_Support Member=P7
+Removed Member From Class: ClassName=MotherBoard_Measure_Communication Member=P17
+Removed Member From Class: ClassName=MotherBoard_Test_Support Member=P17
+Removed Member From Class: ClassName=MotherBoard_Sensor_Communication Member=P24
+Removed Member From Class: ClassName=MotherBoard_Sensor_Communication Member=P25
+Removed Member From Class: ClassName=MotherBoard_Sensor_Communication Member=P26
+Removed Member From Class: ClassName=MotherBoard_Measure_Communication Member=R18
+Added Pin To Net: NetName=NetP26_6 Pin=U1-CN7_1
+Added Pin To Net: NetName=NetP26_5 Pin=U1-CN7_2
+Added Pin To Net: NetName=NetP26_7 Pin=U1-CN7_3
+Added Pin To Net: NetName=NetP26_4 Pin=U1-CN7_4
+Added Pin To Net: NetName=NetP26_8 Pin=U1-CN10_3
+Added Pin To Net: NetName=NetP26_9 Pin=U1-CN10_5
+Added Pin To Net: NetName=NetP26_10 Pin=U1-CN10_25
+Added Member To Class: ClassName=MotherBoard_NucleoF401RE Member=Component C6 47uF, 16V
+Added Member To Class: ClassName=MotherBoard_NucleoF401RE Member=Component C8 22uF, 6.3V
+Added Member To Class: ClassName=MotherBoard_AuxiliarySystem Member=Component C9 100 nF, 100 VDC
+Added Member To Class: ClassName=MotherBoard_AuxiliarySystem Member=Component C10 1 uF, 16 VDC
+Added Member To Class: ClassName=MotherBoard_AuxiliarySystem Member=Component C12 10uF, 25V
+Added Member To Class: ClassName=MotherBoard_AuxiliarySystem Member=Component C14 1 uF, 16 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C17 10 uF, 10 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C18 100 nF, 100 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C21 10 uF, 10 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C22 100 nF, 100 VDC
+Added Member To Class: ClassName=MotherBoard_Measure_Communication Member=Component D8 Diode_Zener
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component D9 Red, 2V
+Added Member To Class: ClassName=MotherBoard_JetsonSupport Member=Component H4 Hole
+Added Member To Class: ClassName=MotherBoard_Measure_Communication Member=Component P13 HDR_Terminal
+Added Member To Class: ClassName=MotherBoard_Measure_Communication Member=Component P14 HDR_Terminal
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component P16 2A, 125V(AC)
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component P18 2A, 125V(AC)
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component P19 2A, 125V(AC)
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component P20 2A, 125V(AC)
+Added Member To Class: ClassName=MotherBoard_Test_Support Member=Component P21 61300311121
+Added Member To Class: ClassName=MotherBoard_Test_Support Member=Component P22 61300311121
+Added Member To Class: ClassName=MotherBoard_Measure_Communication Member=Component R14 3.3 KOhm, 1/4 W
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component R15 10 KOhm, 1/4 W
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component R17 3.3 KOhm, 1/4 W

@@ -1,0 +1,556 @@
+Removed Pin From Net: NetName=AGND Pin=C13-1
+Removed Pin From Net: NetName=AGND Pin=D6-1
+Removed Pin From Net: NetName=NetP18_2 Pin=P18-2
+Removed Pin From Net: NetName=NetQ5_2 Pin=U1-CN7_17
+Removed Pin From Net: NetName=NetP18_2 Pin=U1-CN10_31
+Removed Pin From Net: NetName=NetP12_1 Pin=U1-CN10_33
+Removed Pin From Net: NetName=NetC8_2 Pin=U1-CN10_35
+Removed Member From Class: ClassName=MotherBoard_AuxiliarySystem Member=C22
+Removed Member From Class: ClassName=IMU_I2C Member=IMU_SCL
+Removed Member From Class: ClassName=IMU_I2C Member=IMU_SDA
+Removed Member From Class: ClassName=ParallelCommunication Member=NetP16_1
+Removed Member From Class: ClassName=ParallelCommunication Member=NetP16_2
+Removed Member From Class: ClassName=ParallelCommunication Member=NetP16_3
+Removed Member From Class: ClassName=ParallelCommunication Member=NetP16_4
+Removed Member From Class: ClassName=ParallelCommunication Member=NetP16_5
+Removed Member From Class: ClassName=ParallelCommunication Member=NetP16_6
+Removed Member From Class: ClassName=ParallelCommunication Member=NetP16_7
+Removed Member From Class: ClassName=ParallelCommunication Member=NetP16_8
+Removed Member From Class: ClassName=ParallelCommunication Member=NetP16_9
+Removed Member From Class: ClassName=ParallelCommunication Member=NetP16_10
+Removed Member From Class: ClassName=JETSON_I2C Member=NetP18_1
+Removed Member From Class: ClassName=JETSON_I2C Member=NetP18_2
+Change Component Designator: OldDesignator=C5 NewDesignator=C9
+Change Component Designator: OldDesignator=C6 NewDesignator=C10
+Change Component Designator: OldDesignator=C7 NewDesignator=C5
+Change Component Designator: OldDesignator=C8 NewDesignator=C16
+Change Component Designator: OldDesignator=C9 NewDesignator=C7
+Change Component Designator: OldDesignator=C10 NewDesignator=C13
+Change Component Designator: OldDesignator=C11 NewDesignator=C19
+Change Component Designator: OldDesignator=C12 NewDesignator=C14
+Change Component Designator: OldDesignator=C13 NewDesignator=C15
+Change Component Designator: OldDesignator=C14 NewDesignator=C20
+Change Component Designator: OldDesignator=C15 NewDesignator=C27
+Change Component Designator: OldDesignator=C16 NewDesignator=C6
+Change Component Designator: OldDesignator=C17 NewDesignator=C28
+Change Component Designator: OldDesignator=C18 NewDesignator=C29
+Change Component Designator: OldDesignator=C19 NewDesignator=C30
+Change Component Designator: OldDesignator=C20 NewDesignator=C8
+Change Component Designator: OldDesignator=C21 NewDesignator=C11
+Change Component Designator: OldDesignator=C22 NewDesignator=C12
+Change Component Designator: OldDesignator=D6 NewDesignator=D8
+Change Component Designator: OldDesignator=D7 NewDesignator=D9
+Change Component Designator: OldDesignator=D8 NewDesignator=D6
+Change Component Designator: OldDesignator=D9 NewDesignator=D7
+Change Component Designator: OldDesignator=H3 NewDesignator=H2
+Change Component Designator: OldDesignator=H4 NewDesignator=H3
+Change Component Designator: OldDesignator=H5 NewDesignator=H4
+Change Component Designator: OldDesignator=H7 NewDesignator=H5
+Change Component Designator: OldDesignator=P7 NewDesignator=P13
+Change Component Designator: OldDesignator=P13 NewDesignator=P21
+Change Component Designator: OldDesignator=P14 NewDesignator=P22
+Change Component Designator: OldDesignator=P15 NewDesignator=P23
+Change Component Designator: OldDesignator=P16 NewDesignator=P26
+Change Component Designator: OldDesignator=P17 NewDesignator=P15
+Change Component Designator: OldDesignator=P18 NewDesignator=P24
+Change Component Designator: OldDesignator=P19 NewDesignator=P14
+Change Component Designator: OldDesignator=P20 NewDesignator=P25
+Change Component Designator: OldDesignator=P21 NewDesignator=P7
+Change Component Designator: OldDesignator=P22 NewDesignator=P17
+Change Component Designator: OldDesignator=R10 NewDesignator=R14
+Change Component Designator: OldDesignator=R14 NewDesignator=R15
+Change Component Designator: OldDesignator=R15 NewDesignator=R17
+Change Component Designator: OldDesignator=R17 NewDesignator=R18
+Change Component Designator: OldDesignator=R18 NewDesignator=R10
+Added Component: Designator=C17(CAP_0603)
+Add component (AddParameter): Name = "Capacitance"; Value = "10 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.mouser.vn/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "JLCPCB Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://jlcpcb.com/partdetail/Walsin_TechCorp-0603X106K100/C90806"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part"; Value = "C90806"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture Name"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture SN"; Value = "CL10A106KP8NNWC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "187-CL10A106KP8NNWC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.vn/ProductDetail/Samsung-Electro-Mechanics/CL10A106KP8NNWC?qs=xZ%2FP%252Ba9zWqZx8LSX23YqWA%3D%3D&utm_source=mouser-refine-download&utm_medium=file&utm_campaign=CL10A106KP8NNWC&utm_content=Samsung-Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "1276-CL10A106KP8NNWCTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10a106kp8nnwc/16572907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/tu-gom-0603-10uf-25v"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 uF, 10 VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating DC"; Value = "10 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C18(CAP_0603)
+Add component (AddParameter): Name = "Capacitance"; Value = "100 nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf?ref_disty=mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "JLCPCB Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://jlcpcb.com/partdetail/89397-0603B104K101NT/C88219"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part"; Value = "C88219"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture Name"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture SN"; Value = "CGA3E3X8R1H104K080AE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "810-CGA3E3X8R1H104KA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.com/ProductDetail/TDK/CGA3E3X8R1H104K080AE?qs=nQSIdc08i%252Bd8g3IRRgU2bw%3D%3D&utm_source=mouser-refine-download&utm_medium=file&utm_campaign=CGA3E3X8R1H104K080AE&utm_content=TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "445-173697-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "https://www.digikey.com/en/products/detail/tdk-corporation/cga3e3x8r1h104k080ae/5809262"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 nF, 100 VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating DC"; Value = "16 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C21(CAP_0603)
+Add component (AddParameter): Name = "Capacitance"; Value = "10 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.mouser.vn/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "JLCPCB Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://jlcpcb.com/partdetail/Walsin_TechCorp-0603X106K100/C90806"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part"; Value = "C90806"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture Name"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture SN"; Value = "CL10A106KP8NNWC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "187-CL10A106KP8NNWC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.vn/ProductDetail/Samsung-Electro-Mechanics/CL10A106KP8NNWC?qs=xZ%2FP%252Ba9zWqZx8LSX23YqWA%3D%3D&utm_source=mouser-refine-download&utm_medium=file&utm_campaign=CL10A106KP8NNWC&utm_content=Samsung-Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "1276-CL10A106KP8NNWCTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10a106kp8nnwc/16572907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/tu-gom-0603-10uf-25v"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 uF, 10 VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating DC"; Value = "10 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C22(CAP_0603)
+Add component (AddParameter): Name = "Capacitance"; Value = "100 nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf?ref_disty=mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "JLCPCB Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://jlcpcb.com/partdetail/89397-0603B104K101NT/C88219"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part"; Value = "C88219"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture Name"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture SN"; Value = "CGA3E3X8R1H104K080AE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "810-CGA3E3X8R1H104KA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.com/ProductDetail/TDK/CGA3E3X8R1H104K080AE?qs=nQSIdc08i%252Bd8g3IRRgU2bw%3D%3D&utm_source=mouser-refine-download&utm_medium=file&utm_campaign=CGA3E3X8R1H104K080AE&utm_content=TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "445-173697-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "https://www.digikey.com/en/products/detail/tdk-corporation/cga3e3x8r1h104k080ae/5809262"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 nF, 100 VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating DC"; Value = "16 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C23(CAP_0603)
+Add component (AddParameter): Name = "Capacitance"; Value = "10 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.mouser.vn/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "JLCPCB Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://jlcpcb.com/partdetail/Walsin_TechCorp-0603X106K100/C90806"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part"; Value = "C90806"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture Name"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture SN"; Value = "CL10A106KP8NNWC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "187-CL10A106KP8NNWC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.vn/ProductDetail/Samsung-Electro-Mechanics/CL10A106KP8NNWC?qs=xZ%2FP%252Ba9zWqZx8LSX23YqWA%3D%3D&utm_source=mouser-refine-download&utm_medium=file&utm_campaign=CL10A106KP8NNWC&utm_content=Samsung-Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "1276-CL10A106KP8NNWCTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10a106kp8nnwc/16572907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/tu-gom-0603-10uf-25v"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 uF, 10 VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating DC"; Value = "10 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C24(CAP_0603)
+Add component (AddParameter): Name = "Capacitance"; Value = "100 nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf?ref_disty=mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "JLCPCB Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://jlcpcb.com/partdetail/89397-0603B104K101NT/C88219"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part"; Value = "C88219"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture Name"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture SN"; Value = "CGA3E3X8R1H104K080AE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "810-CGA3E3X8R1H104KA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.com/ProductDetail/TDK/CGA3E3X8R1H104K080AE?qs=nQSIdc08i%252Bd8g3IRRgU2bw%3D%3D&utm_source=mouser-refine-download&utm_medium=file&utm_campaign=CGA3E3X8R1H104K080AE&utm_content=TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "445-173697-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "https://www.digikey.com/en/products/detail/tdk-corporation/cga3e3x8r1h104k080ae/5809262"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 nF, 100 VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating DC"; Value = "16 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C25(CAP_0603)
+Add component (AddParameter): Name = "Capacitance"; Value = "10 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.mouser.vn/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "JLCPCB Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://jlcpcb.com/partdetail/Walsin_TechCorp-0603X106K100/C90806"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part"; Value = "C90806"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture Name"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture SN"; Value = "CL10A106KP8NNWC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "187-CL10A106KP8NNWC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.vn/ProductDetail/Samsung-Electro-Mechanics/CL10A106KP8NNWC?qs=xZ%2FP%252Ba9zWqZx8LSX23YqWA%3D%3D&utm_source=mouser-refine-download&utm_medium=file&utm_campaign=CL10A106KP8NNWC&utm_content=Samsung-Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "1276-CL10A106KP8NNWCTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10a106kp8nnwc/16572907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/tu-gom-0603-10uf-25v"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 uF, 10 VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating DC"; Value = "10 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C26(CAP_0603)
+Add component (AddParameter): Name = "Capacitance"; Value = "100 nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf?ref_disty=mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "JLCPCB Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://jlcpcb.com/partdetail/89397-0603B104K101NT/C88219"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part"; Value = "C88219"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture Name"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture SN"; Value = "CGA3E3X8R1H104K080AE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "810-CGA3E3X8R1H104KA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.com/ProductDetail/TDK/CGA3E3X8R1H104K080AE?qs=nQSIdc08i%252Bd8g3IRRgU2bw%3D%3D&utm_source=mouser-refine-download&utm_medium=file&utm_campaign=CGA3E3X8R1H104K080AE&utm_content=TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "445-173697-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "https://www.digikey.com/en/products/detail/tdk-corporation/cga3e3x8r1h104k080ae/5809262"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 nF, 100 VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating DC"; Value = "16 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=P16(620104131822)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/catalog/datasheet/620104131822.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Global Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://www.we-online.com/en/components/products/WTB_2_00_SMT_MALE_HORIZONTAL_SHROUDED_HEADER_6201XX131822?sq=620104131822#620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Global Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://www.mouser.vn/ProductDetail/Wurth-Elektronik/620104131822?qs=ZtY9WdtwX57A7D%2FbILyVEQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-25 to +85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "January 2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "710-620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.vn/ProductDetail/Wurth-Elektronik/620104131822?qs=ZtY9WdtwX57A7D%2FbILyVEQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/dau-ph2-0mm-4-chan-dan-smd-nam-ngang"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2A, 125V(AC)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "800VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "100VAC"; VariantName = "[No Variations]"
+Added Component: Designator=P18(620104131822)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/catalog/datasheet/620104131822.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Global Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://www.we-online.com/en/components/products/WTB_2_00_SMT_MALE_HORIZONTAL_SHROUDED_HEADER_6201XX131822?sq=620104131822#620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Global Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://www.mouser.vn/ProductDetail/Wurth-Elektronik/620104131822?qs=ZtY9WdtwX57A7D%2FbILyVEQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-25 to +85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "January 2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "710-620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.vn/ProductDetail/Wurth-Elektronik/620104131822?qs=ZtY9WdtwX57A7D%2FbILyVEQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/dau-ph2-0mm-4-chan-dan-smd-nam-ngang"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2A, 125V(AC)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "800VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "100VAC"; VariantName = "[No Variations]"
+Added Component: Designator=P19(620104131822)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/catalog/datasheet/620104131822.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Global Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://www.we-online.com/en/components/products/WTB_2_00_SMT_MALE_HORIZONTAL_SHROUDED_HEADER_6201XX131822?sq=620104131822#620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Global Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://www.mouser.vn/ProductDetail/Wurth-Elektronik/620104131822?qs=ZtY9WdtwX57A7D%2FbILyVEQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-25 to +85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "January 2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "710-620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.vn/ProductDetail/Wurth-Elektronik/620104131822?qs=ZtY9WdtwX57A7D%2FbILyVEQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/dau-ph2-0mm-4-chan-dan-smd-nam-ngang"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2A, 125V(AC)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "800VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "100VAC"; VariantName = "[No Variations]"
+Added Component: Designator=P20(620104131822)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/catalog/datasheet/620104131822.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Global Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://www.we-online.com/en/components/products/WTB_2_00_SMT_MALE_HORIZONTAL_SHROUDED_HEADER_6201XX131822?sq=620104131822#620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Global Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://www.mouser.vn/ProductDetail/Wurth-Elektronik/620104131822?qs=ZtY9WdtwX57A7D%2FbILyVEQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-25 to +85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "January 2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "710-620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.vn/ProductDetail/Wurth-Elektronik/620104131822?qs=ZtY9WdtwX57A7D%2FbILyVEQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/dau-ph2-0mm-4-chan-dan-smd-nam-ngang"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2A, 125V(AC)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "800VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "100VAC"; VariantName = "[No Variations]"
+Added Component: Designator=P27(620104131822)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/catalog/datasheet/620104131822.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Global Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://www.we-online.com/en/components/products/WTB_2_00_SMT_MALE_HORIZONTAL_SHROUDED_HEADER_6201XX131822?sq=620104131822#620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Global Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://www.mouser.vn/ProductDetail/Wurth-Elektronik/620104131822?qs=ZtY9WdtwX57A7D%2FbILyVEQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-25 to +85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "January 2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 SN"; Value = "710-620104131822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.vn/ProductDetail/Wurth-Elektronik/620104131822?qs=ZtY9WdtwX57A7D%2FbILyVEQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2 URL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/dau-ph2-0mm-4-chan-dan-smd-nam-ngang"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2A, 125V(AC)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "800VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "100VAC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=+5 Pin=C17-2
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=+5 Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=+5 Pin=C21-2
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=+5 Pin=C22-2
+Added Pin To Net: NetName=GND Pin=C23-1
+Added Pin To Net: NetName=+5 Pin=C23-2
+Added Pin To Net: NetName=GND Pin=C24-1
+Added Pin To Net: NetName=+5 Pin=C24-2
+Added Pin To Net: NetName=GND Pin=C25-1
+Added Pin To Net: NetName=+5 Pin=C25-2
+Added Pin To Net: NetName=GND Pin=C26-1
+Added Pin To Net: NetName=+5 Pin=C26-2
+Added Pin To Net: NetName=+5 Pin=P16-1
+Added Pin To Net: NetName=GND Pin=P16-4
+Added Pin To Net: NetName=+5 Pin=P18-1
+Added Pin To Net: NetName=NetP18_2 Pin=P18-2
+Added Pin To Net: NetName=GND Pin=P18-4
+Added Pin To Net: NetName=+5 Pin=P19-1
+Added Pin To Net: NetName=GND Pin=P19-4
+Added Pin To Net: NetName=+5 Pin=P20-1
+Added Pin To Net: NetName=GND Pin=P20-4
+Added Pin To Net: NetName=NetC8_2 Pin=R13-1
+Added Pin To Net: NetName=NetC8_2 Pin=U1-CN7_32
+Added Pin To Net: NetName=NetP18_2 Pin=U1-CN10_24
+Added Pin To Net: NetName=NetP12_1 Pin=U1-CN10_26
+Added Pin To Net: NetName=NetQ5_2 Pin=U1-CN10_33
+Change Net Name : Old Net Name=IMU_RST New Net Name=JET_RST
+Change Net Name : Old Net Name=IMU_SCL New Net Name=JET_SCL
+Change Net Name : Old Net Name=IMU_SDA New Net Name=JET_SDA
+Change Net Name : Old Net Name=NetC8_2 New Net Name=NetC15_2
+Change Net Name : Old Net Name=NetD7_2 New Net Name=NetD9_2
+Change Net Name : Old Net Name=NetD9_2 New Net Name=NetD7_2
+Change Net Name : Old Net Name=NetP7_1 New Net Name=NetP13_1
+Change Net Name : Old Net Name=NetP16_1 New Net Name=NetP26_1
+Change Net Name : Old Net Name=NetP16_2 New Net Name=NetP26_2
+Change Net Name : Old Net Name=NetP16_3 New Net Name=NetP26_3
+Change Net Name : Old Net Name=NetP16_4 New Net Name=NetP26_4
+Change Net Name : Old Net Name=NetP16_5 New Net Name=NetP26_5
+Change Net Name : Old Net Name=NetP16_6 New Net Name=NetP26_6
+Change Net Name : Old Net Name=NetP16_7 New Net Name=NetP26_7
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Pin To Net: NetName=NetC15_1 Pin=D8-1
+Added Net: Name=NetC15_1
+Added Pin To Net: NetName=NetP14_1 Pin=P14-1
+Added Pin To Net: NetName=NetP14_1 Pin=U1-CN7_38
+Added Net: Name=NetP14_1
+Added Pin To Net: NetName=NetP16_2 Pin=P16-2
+Added Pin To Net: NetName=NetP16_2 Pin=U1-CN10_6
+Added Net: Name=NetP16_2
+Added Pin To Net: NetName=NetP16_3 Pin=P16-3
+Added Pin To Net: NetName=NetP16_3 Pin=U1-CN7_17
+Added Net: Name=NetP16_3
+Added Pin To Net: NetName=NetP18_3 Pin=P18-3
+Added Pin To Net: NetName=NetP18_3 Pin=U1-CN7_30
+Added Net: Name=NetP18_3
+Added Pin To Net: NetName=NetP19_2 Pin=P19-2
+Added Pin To Net: NetName=NetP19_2 Pin=U1-CN10_16
+Added Net: Name=NetP19_2
+Added Pin To Net: NetName=NetP19_3 Pin=P19-3
+Added Pin To Net: NetName=NetP19_3 Pin=U1-CN10_37
+Added Net: Name=NetP19_3
+Added Pin To Net: NetName=NetP20_2 Pin=P20-2
+Added Pin To Net: NetName=NetP20_2 Pin=U1-CN10_22
+Added Net: Name=NetP20_2
+Added Pin To Net: NetName=NetP20_3 Pin=P20-3
+Added Pin To Net: NetName=NetP20_3 Pin=U1-CN10_35
+Added Net: Name=NetP20_3
+Added Pin To Net: NetName=NetP24_1 Pin=P24-1
+Added Pin To Net: NetName=NetP24_1 Pin=U1-CN10_17
+Added Net: Name=NetP24_1
+Added Pin To Net: NetName=NetP24_2 Pin=P24-2
+Added Pin To Net: NetName=NetP24_2 Pin=U1-CN7_21
+Added Net: Name=NetP24_2
+Added Pin To Net: NetName=NetP26_8 Pin=P26-8
+Added Pin To Net: NetName=NetP26_8 Pin=U1-CN7_4
+Added Net: Name=NetP26_8
+Added Pin To Net: NetName=NetP26_9 Pin=P26-9
+Added Pin To Net: NetName=NetP26_9 Pin=U1-CN10_25
+Added Net: Name=NetP26_9
+Added Pin To Net: NetName=NetP26_10 Pin=P26-10
+Added Pin To Net: NetName=NetP26_10 Pin=U1-CN10_5
+Added Net: Name=NetP26_10
+Added Pin To Net: NetName=NetP27_1 Pin=P27-1
+Added Pin To Net: NetName=NetP27_1 Pin=U1-CN10_31
+Added Net: Name=NetP27_1
+Added Pin To Net: NetName=NetP27_2 Pin=P27-2
+Added Pin To Net: NetName=NetP27_2 Pin=U1-CN10_27
+Added Net: Name=NetP27_2
+Added Pin To Net: NetName=NetP27_3 Pin=P27-3
+Added Pin To Net: NetName=NetP27_3 Pin=U1-CN10_29
+Added Net: Name=NetP27_3
+Added Pin To Net: NetName=NetP27_4 Pin=P27-4
+Added Pin To Net: NetName=NetP27_4 Pin=U1-CN10_28
+Added Net: Name=NetP27_4
+Added Class: Name=JETSON_SPI
+Added Member To Class: ClassName=MotherBoard_AuxiliarySystem Member=Component C14 1 uF, 16 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C17 10 uF, 10 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C18 100 nF, 100 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C21 10 uF, 10 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C22 100 nF, 100 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C23 10 uF, 10 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C24 100 nF, 100 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C25 10 uF, 10 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component C26 100 nF, 100 VDC
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component P16 2A, 125V(AC)
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component P18 2A, 125V(AC)
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component P19 2A, 125V(AC)
+Added Member To Class: ClassName=MotherBoard_Sensor_Communication Member=Component P20 2A, 125V(AC)
+Added Member To Class: ClassName=MotherBoard_JetsonSupport Member=Component P27 2A, 125V(AC)
+Added Member To Class: ClassName=IMU_I2C Member=Wire JET_SCL
+Added Member To Class: ClassName=IMU_I2C Member=Wire JET_SDA
+Added Member To Class: ClassName=JETSON_I2C Member=Wire NetP24_1
+Added Member To Class: ClassName=JETSON_I2C Member=Wire NetP24_2
+Added Member To Class: ClassName=ParallelCommunication Member=Wire NetP26_1
+Added Member To Class: ClassName=ParallelCommunication Member=Wire NetP26_2
+Added Member To Class: ClassName=ParallelCommunication Member=Wire NetP26_3
+Added Member To Class: ClassName=ParallelCommunication Member=Wire NetP26_4
+Added Member To Class: ClassName=ParallelCommunication Member=Wire NetP26_5
+Added Member To Class: ClassName=ParallelCommunication Member=Wire NetP26_6
+Added Member To Class: ClassName=ParallelCommunication Member=Wire NetP26_7
+Added Member To Class: ClassName=ParallelCommunication Member=Wire NetP26_8
+Added Member To Class: ClassName=ParallelCommunication Member=Wire NetP26_9
+Added Member To Class: ClassName=ParallelCommunication Member=Wire NetP26_10

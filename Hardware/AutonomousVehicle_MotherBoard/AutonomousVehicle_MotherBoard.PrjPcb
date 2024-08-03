@@ -670,7 +670,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GONLOGUW
 
 [Document38]
-DocumentPath=AutonomousVehicle_MotherBoard.OutJob
+DocumentPath=..\Support_Hardware\Library\Project Outputs for AutonomousVehicle_Lib\AutonomousVehicle_Lib\Project Outputs for AutonomousVehicle_Lib\AutonomousVehicle_Lib.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -687,7 +687,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document39]
-DocumentPath=..\Support_Hardware\Library\Project Outputs for AutonomousVehicle_Lib\AutonomousVehicle_Lib\Project Outputs for AutonomousVehicle_Lib\AutonomousVehicle_Lib.IntLib
+DocumentPath=MotherBoard.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -722,7 +722,7 @@ AutoOpenFile=-1
 AutoOpenOutJob=-1
 
 [Generic_SmartPDFSettings]
-ProjectMode=-1
+ProjectMode=0
 ZoomPrecision=50
 AddNetsInformation=-1
 AddNetPins=-1
@@ -730,7 +730,7 @@ AddNetNetLabels=-1
 AddNetPorts=-1
 ShowComponentParameters=-1
 GlobalBookmarks=0
-ExportBOM=-1
+ExportBOM=0
 TemplateFilename=Board Stack Report.XLT
 TemplateStoreRelative=-1
 PCB_PrintColor=1
